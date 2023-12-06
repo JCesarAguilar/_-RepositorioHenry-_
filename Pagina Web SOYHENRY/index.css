@@ -1,0 +1,52 @@
+/* Fondo de la pagina */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+
+/* Color de letras h1 */  
+h1 {
+    color: #333;
+  }
+  
+/* Estilos para los botones de enlace */
+  a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-right: 90px;
+    margin-bottom: 20px;
+    margin-top: 30px;  
+  }
+
+/* Aplica un margen adicional al primer botón del menu principal */
+.first {
+    margin-left: 80px;
+    float: left;
+  }
+
+/* Coloca al Menu principal en horizontal y con espacios */  
+.Menu {
+  float: left;
+   
+}   
+/* Formato adicional a botón del Index */ 
+.botonIndex {
+  margin-top: 0px; 
+} 
+
+/* Estilo a los botones de enlace */ 
+a:hover {
+    background-color: #2980b9;
+  }
+
+/* Estilo a los listas */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }

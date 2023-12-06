@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+        <body>
+            <header>
+                <nav>
+                    <ul>
+                        <li><a class="first" href="/index.html">Inicio</a></li>
+                        <li><a class="Menu" href="/about.html">Acerca de</a></li>
+                        <li><a class="Menu" href="/acomodation.html">Alojamiento</a></li>
+                        <li><a class="Menu" href="/visits_activities.html">Visitas y Actividades</a></li>
+                        <li><a class="Menu" href="/entertainment.html">Entretenimiento</a></li>
+                        <li><a class="Menu" href="/form.html">Contáctanos</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <hr>
+            <form action="mailto:jcesar.a.15@gmail.com" method="POST" enctype="application/x-www-form-urlencoded">
+                <label for="nombre"> Nombre</label>
+                <input type="text" name="nombre" value="" required/><br>
+                <label for="email"> Correo Electrónico</label>
+                <input type="email" name="email" value="" required/><br>
+                <label for="mensaje"> Mensaje</label>
+                <textarea name="mensaje" rows="5" cols="33" required></textarea><br>
+                <input type="submit" value="Enviar"/>
+            </form>
+        </body>
+</html>
